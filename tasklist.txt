@@ -1,0 +1,31 @@
+#1 获得购买商品清单
+输入：
+    inputs: [String]
+    goodsInfo: [{
+        barcode: String,
+        name: String,
+        unit: String,
+        price: Number,
+    }]: loadAllScore()
+输出：
+    goods:[{
+        barcode: String,
+        name: String,
+        unit: String,
+        price: Number,
+        number: Number,
+        subtotal: Number
+    }]
+#2 计算总计
+输入：
+    goods
+输出：
+    summary: {
+      totalPrices: Number,
+    }
+#3 打印小票
+输入：
+    goods
+    summary
+输出：
+    result: String: console.log()
